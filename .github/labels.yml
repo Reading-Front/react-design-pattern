@@ -1,0 +1,219 @@
+- name: "1장 들어가며"
+  color: "0366d6"
+  description: "1장 들어가며"
+
+- name: "1.1 웹 개발의 역사"
+  color: "0366d6"
+  description: "1장 들어가며 > 1.1 웹 개발의 역사"
+
+- name: "1.2 웹자바스크립트의 한계"
+  color: "0366d6"
+  description: "1장 들어가며 > 1.2 웹자바스크립트의 한계"
+
+- name: "2장 타입"
+  color: "5319E7"
+  description: "2장 타입"
+
+- name: "2.1 타입이란"
+  color: "5319E7"
+  description: "2장 타입 > 2.1 타입이란"
+
+- name: "2.2 타입스크립트의 타입 시스템"
+  color: "5319E7"
+  description: "2장 타입 > 2.2 타입스크립트의 타입 시스템"
+
+- name: "2.3 원시 타입"
+  color: "5319E7"
+  description: "2장 타입 > 2.3 원시 타입"
+
+- name: "2.4 객체 타입"
+  color: "5319E7"
+  description: "2장 타입 > 2.4 객체 타입"
+
+- name: "3장 고급 타입"
+  color: "1D76DB"
+  description: "3장 고급 타입"
+
+- name: "3.1 타입스크립트만의 독자적 타입 시스템"
+  color: "1D76DB"
+  description: "3장 고급 타입 > 3.1 타입스크립트만의 독자적 타입 시스템"
+
+- name: "3.2 타입 조합"
+  color: "1D76DB"
+  description: "3장 고급 타입 > 3.2 타입 조합"
+
+- name: "3.3 제네릭 사용법"
+  color: "1D76DB"
+  description: "3장 고급 타입 > 3.3 제네릭 사용법"
+
+- name: "4장 타입 확장하기·좁히기"
+  color: "0E8A16"
+  description: "4장 타입 확장하기·좁히기"
+
+- name: "4.1 타입 확장하기"
+  color: "0E8A16"
+  description: "4장 타입 확장하기·좁히기 > 4.1 타입 확장하기"
+
+- name: "4.2 타입 좁히기 - 타입 가드"
+  color: "0E8A16"
+  description: "4장 타입 확장하기·좁히기 > 4.2 타입 좁히기 - 타입 가드"
+
+- name: "4.3 타입 좁히기 - 식별할 수 있는 유니온"
+  color: "0E8A16"
+  description: "4장 타입 확장하기·좁히기 > 4.3 타입 좁히기 - 식별할 수 있는 유니온"
+
+- name: "4.4 Exhaustiveness Checking으로 정확한 타입 분기 유지하기"
+  color: "0E8A16"
+  description: "4장 타입 확장하기·좁히기 > 4.4 Exhaustiveness Checking으로 정확한 타입 분기 유지하기"
+
+- name: "5장 타입 활용하기"
+  color: "FBCA04"
+  description: "5장 타입 활용하기"
+
+- name: "5.1 조건부 타입"
+  color: "FBCA04"
+  description: "5장 타입 활용하기 > 5.1 조건부 타입"
+
+- name: "5.2 템플릿 리터럴 타입 활용하기"
+  color: "FBCA04"
+  description: "5장 타입 활용하기 > 5.2 템플릿 리터럴 타입 활용하기"
+
+- name: "5.3 커스텀 유틸리티 타입 활용하기"
+  color: "FBCA04"
+  description: "5장 타입 활용하기 > 5.3 커스텀 유틸리티 타입 활용하기"
+
+- name: "5.4 불변 객체 타입으로 활용하기"
+  color: "FBCA04"
+  description: "5장 타입 활용하기 > 5.4 불변 객체 타입으로 활용하기"
+
+- name: "5.5 Record 원시 타입 키 개선하기"
+  color: "FBCA04"
+  description: "5장 타입 활용하기 > 5.5 Record 원시 타입 키 개선하기"
+
+- name: "6장 타입스크립트 컴파일"
+  color: "D93F0B"
+  description: "6장 타입스크립트 컴파일"
+
+- name: "6.1 자바스크립트의 런타임과 타입스크립트의 컴파일"
+  color: "D93F0B"
+  description: "6장 타입스크립트 컴파일 > 6.1 자바스크립트의 런타임과 타입스크립트의 컴파일"
+
+- name: "6.2 타입스크립트 컴파일러의 동작"
+  color: "D93F0B"
+  description: "6장 타입스크립트 컴파일 > 6.2 타입스크립트 컴파일러의 동작"
+
+- name: "6.3 타입스크립트 컴파일러의 구조"
+  color: "D93F0B"
+  description: "6장 타입스크립트 컴파일 > 6.3 타입스크립트 컴파일러의 구조"
+
+- name: "7장 비동기 호출"
+  color: "B60205"
+  description: "7장 비동기 호출"
+
+- name: "7.1 API 요청"
+  color: "B60205"
+  description: "7장 비동기 호출 > 7.1 API 요청"
+
+- name: "7.2 API 상태 관리하기"
+  color: "B60205"
+  description: "7장 비동기 호출 > 7.2 API 상태 관리하기"
+
+- name: "7.3 API 에러 핸들링"
+  color: "B60205"
+  description: "7장 비동기 호출 > 7.3 API 에러 핸들링"
+
+- name: "7.4 API 모킹"
+  color: "B60205"
+  description: "7장 비동기 호출 > 7.4 API 모킹"
+
+- name: "8장 JSX에서 TSX로"
+  color: "C2E0C6"
+  description: "8장 JSX에서 TSX로"
+
+- name: "8.1 리액트 컴포넌트의 타입"
+  color: "C2E0C6"
+  description: "8장 JSX에서 TSX로 > 8.1 리액트 컴포넌트의 타입"
+
+- name: "8.2 타입스크립트로 리액트 컴포넌트 만들기"
+  color: "C2E0C6"
+  description: "8장 JSX에서 TSX로 > 8.2 타입스크립트로 리액트 컴포넌트 만들기"
+
+- name: "8.3 정리"
+  color: "C2E0C6"
+  description: "8장 JSX에서 TSX로 > 8.3 정리"
+
+- name: "9장 훅"
+  color: "7057FF"
+  description: "9장 훅"
+
+- name: "9.1 리액트 훅"
+  color: "7057FF"
+  description: "9장 훅 > 9.1 리액트 훅"
+
+- name: "9.2 커스텀 훅"
+  color: "7057FF"
+  description: "9장 훅 > 9.2 커스텀 훅"
+
+- name: "10장 상태 관리"
+  color: "006B75"
+  description: "10장 상태 관리"
+
+- name: "10.1 상태 관리"
+  color: "006B75"
+  description: "10장 상태 관리 > 10.1 상태 관리"
+
+- name: "10.2 상태 관리 라이브러리"
+  color: "006B75"
+  description: "10장 상태 관리 > 10.2 상태 관리 라이브러리"
+
+- name: "11장 CSS-in-JS"
+  color: "1D76DB"
+  description: "11장 CSS-in-JS"
+
+- name: "11.1 CSS-in-JS란"
+  color: "1D76DB"
+  description: "11장 CSS-in-JS > 11.1 CSS-in-JS란"
+
+- name: "11.2 유틸리티 함수를 활용하여 styled-components의 중복 타입 선언 피하기"
+  color: "1D76DB"
+  description: "11장 CSS-in-JS > 11.2 유틸리티 함수를 활용하여 styled-components의 중복 타입 선언 피하기"
+
+- name: "12장 타입스크립트 프로젝트 관리"
+  color: "BFD4F2"
+  description: "12장 타입스크립트 프로젝트 관리"
+
+- name: "12.1 앰비언트 타입 활용하기"
+  color: "BFD4F2"
+  description: "12장 타입스크립트 프로젝트 관리 > 12.1 앰비언트 타입 활용하기"
+
+- name: "12.2 스크립트와 설정 파일 활용하기"
+  color: "BFD4F2"
+  description: "12장 타입스크립트 프로젝트 관리 > 12.2 스크립트와 설정 파일 활용하기"
+
+- name: "12.3 타입스크립트 마이그레이션"
+  color: "BFD4F2"
+  description: "12장 타입스크립트 프로젝트 관리 > 12.3 타입스크립트 마이그레이션"
+
+- name: "12.4 모노레포"
+  color: "BFD4F2"
+  description: "12장 타입스크립트 프로젝트 관리 > 12.4 모노레포"
+
+- name: "13장 타입스크립트와 객체 지향"
+  color: "D4C5F9"
+  description: "13장 타입스크립트와 객체 지향"
+
+- name: "13.1 타입스크립트의 객체 지향"
+  color: "D4C5F9"
+  description: "13장 타입스크립트와 객체 지향 > 13.1 타입스크립트의 객체 지향"
+
+- name: "13.2 우아한형제들의 활용 방식"
+  color: "D4C5F9"
+  description: "13장 타입스크립트와 객체 지향 > 13.2 우아한형제들의 활용 방식"
+
+- name: "13.3 캡슐화와 추상화"
+  color: "D4C5F9"
+  description: "13장 타입스크립트와 객체 지향 > 13.3 캡슐화와 추상화"
+
+- name: "13.4 정리"
+  color: "D4C5F9"
+  description: "13장 타입스크립트와 객체 지향 > 13.4 정리"
