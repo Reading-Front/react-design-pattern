@@ -6,7 +6,6 @@ addReviewers: true
 # 할당할 리뷰어 목록 (실제 사용자 이름으로 변경해야 합니다)
 reviewers:
   - dkmqflx
-  - eazyseon
   - sumzdev
   - brparkk
 
