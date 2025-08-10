@@ -8,5 +8,5 @@
 # ------------------------------
 # 커밋 메세지 적용 방법
 # $ git config --local core.editor "code --wait" # 특정 워크스페이스에서 사용
-# $ git config commit.template .github/.GITHUB_MESSAGE_TEMPLATE.txt
+# $ git config commit.template .github/.GITHUB_MESSAGE_TEMPLATE
 # $ git commit 입력 후 커밋 메세지 입력 (-m 옵션 사용 ❌)
