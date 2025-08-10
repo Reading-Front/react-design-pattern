@@ -6,13 +6,15 @@ on:
 
 permissions:
   contents: read
-  pull-requests: read
+  pull-requests: write
+  issues: write
 
 jobs:
   lint-commits:
     runs-on: ubuntu-latest
     steps:
-      - name: Validate commit messages against template
+      - name: Lint commit messages
+        id: lint
         uses: actions/github-script@v7
         with:
           script: |
@@ -48,16 +50,41 @@ jobs:
               }
             }
 
-            if (violations.length > 0) {
-              core.setFailed(
-                `커밋 메시지 템플릿 위반 ${violations.length}건:\n` +
-                violations.map(v => `- ${v}`).join('\n') +
-                `\n\n허용 형식 예:\n` +
-                `- [2장] 타입 - 정해인\n` +
-                `- [docs] README 수정\n`
-              );
-            } else {
+            const violationsMd = violations.map(v => `- ${v}`).join('\n');
+            core.setOutput('has_violations', violations.length > 0 ? 'true' : 'false');
+            core.setOutput('violations_md', violationsMd);
+            core.setOutput('examples', `- [2장] 타입 - 정해인\n- [docs] README 수정`);
+            if (violations.length === 0) {
               core.info('All commit messages comply with the required template.');
             }
+
+      - name: Comment on PR with violations
+        if: steps.lint.outputs.has_violations == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const prNumber = context.issue.number;
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const body = [
+              '🚫 커밋 메시지 템플릿 검사 실패',
+              '',
+              '다음 커밋이 규칙을 따르지 않습니다:',
+              `${{ steps.lint.outputs.violations_md }}`,
+              '',
+              '허용 형식 예:',
+              `${{ steps.lint.outputs.examples }}`
+            ].join('\n');
+            await github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number: prNumber,
+              body
+            });
+
+      - name: Fail workflow if violations exist
+        if: steps.lint.outputs.has_violations == 'true'
+        run: |
+          echo "커밋 메시지 템플릿 위반이 있습니다. PR 코멘트를 확인하세요." && exit 1
 
 
